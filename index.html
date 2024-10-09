@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Página</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: linear-gradient(270deg, #ff5edf, #04c8de);
+      background-size: 400% 400%;
+      animation: GradientBackground 15s ease infinite;
+      color: white;
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+    @keyframes GradientBackground {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+    img {
+      border-radius: 25%;
+      width: 250px;
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+  <div>
+    <h1>Carlos Fernando Campos Monterroza</h1>
+    <img src="./img/01.jpeg" alt="Carlos">
+  </div>
+</body>
+</html>
